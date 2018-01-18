@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Home from './routes/Home';
 import About from './routes/About';
 import User from './routes/User';
+import Posts from './routes/Posts';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route exact path="/" component={Home} />  {/* exact를 넣어줘야 독립적으로 나온다. */}
           <Route path="/about/:username" component={About} />
           <Route path="/user" component={User} />
+          <Route path="/posts" component={Posts} />
         </div>
       </div>
     </Router>
