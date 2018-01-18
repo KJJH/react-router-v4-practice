@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Home = () => {
+const Home = ({ history }) => {
   return (
     <div>
       HOME
+      <button onClick={() => { history.push('/posts') }}>
+        버튼
+      </button>
     </div>
   );
 };
