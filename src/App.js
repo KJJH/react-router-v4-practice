@@ -17,7 +17,7 @@ const App = () => {
         <Header />
         <div>
           <Route exact path="/" component={Home} />  {/* exact를 넣어줘야 독립적으로 나온다. */}
-          <Route path="/about" component={About} />
+          <Route path="/about/:username" component={About} />
           <Route path="/user" component={User} />
         </div>
       </div>
