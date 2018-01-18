@@ -17,7 +17,7 @@
 .item:hover {  /* 커서가 올라가있을 때 */
   background: #748ffc;
 }
-.item:active {  /* 클릭했을 때 */
+.item:active, .item.active {  /* 클릭했을 때 */
   background: white;
   color: #5c7cfa;
 }
